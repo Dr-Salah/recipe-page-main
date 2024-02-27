@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "young-serif";
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+/* 
+* {
+    border: 1px blue solid;
+} */
+
+main {
+    width: 600px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+img {
+    width: 600px;
+    border-radius: 15px;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.prep-time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.prep-time ul {
+    padding-left: 10px 20px;
+    line-height: 2rem;
+}
+
+.nutrition-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+
+.nutrition-item h4 {
+    width: 50%;
+    margin: 15px 0px;
+}
+
+.nutrition-item p {
+    margin: 15px 0px;
+}
+
+h1, h2 {
+    font-family: "young-serif";
+    color: hsl(14, 45%, 36%);
+}
+
